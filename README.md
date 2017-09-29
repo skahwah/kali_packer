@@ -1,4 +1,5 @@
 # kali_packer
+Pentest environment builder using packer targeting deployment with vagrant and chef.
 
 ## Pre-requisites
 - VMWare Fusion or VMWare Workstation
