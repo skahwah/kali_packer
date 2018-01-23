@@ -1,4 +1,7 @@
 #!/bin/bash
+# Created by Sanjiv Kawa
+# Twitter: @hackerjiv
+# 1/23/18
 
 echo 'set completion-ignore-case On' >> ~/.inputrc
 

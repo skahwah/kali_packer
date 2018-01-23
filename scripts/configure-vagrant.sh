@@ -1,4 +1,7 @@
 #!/bin/bash
+# Created by Sanjiv Kawa
+# Twitter: @hackerjiv
+# 1/23/18
 
 # Installing vagrant keys
 HOME_DIR="${HOME_DIR:-/home/vagrant}";

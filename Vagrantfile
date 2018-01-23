@@ -5,15 +5,15 @@
 current_dir = File.dirname(__FILE__)
 
 Vagrant.configure("2") do |config|
-  config.vm.box = "kali-linux-2017-W39-amd64"
+  config.vm.box = "kali-linux-2018-W04-amd64"
   config.ssh.username = "root"
-  config.ssh.private_key_path = "/Users/user/.ssh/root-private"
+  config.ssh.private_key_path = "./ssh/root-ssh-key"
 
   config.vm.provider "vmware_fusion" do |v|
     v.gui = true
     v.vmx["memsize"] = "2048"
     v.vmx["numvcpus"] = "2"
-    v.vmx["displayName"] = "kali-linux-2017-W39-amd64"
+    v.vmx["displayName"] = "kali-linux-2018-W04-amd64"
     v.vmx["ide1:0.filename"] = ""
     v.vmx["sharedfolder.maxnum"] = "1"
 
