@@ -1,13 +1,14 @@
 # kali_packer
+Pentest environment builder using packer targeting deployment with vagrant and chef.
 
 ## Pre-requisites
 - VMWare Fusion or VMWare Workstation
 - Vagrant
 
-The purpose of this is to create a new Kali VM using the most recent weekly release. The VM is then converted into a Vagrant box. Packer will automatically add the following to the VM:
+The purpose of this is to automate the creation of a new Kali VM using the most recent weekly release. A Vagrant box is then created from the VMWare files. Packer will automatically add the following to the VM:
 - A vagrant user
 - SSH support
-- Chef Client: So that you can deploy your preferred toolset after the box has been created. Check out my <a href="https://github.com/skahwah/chef/tree/master/kali_kitchen">Chef repo</a>
+- Chef Client: So that you can deploy your preferred toolkit after the box has been created. Check out my <a href="https://github.com/skahwah/chef/tree/master/kali_kitchen">Chef repo</a>
 - VMWare tools
 
 This is particularly useful before starting a new pen-testing engagement for a couple of reasons:

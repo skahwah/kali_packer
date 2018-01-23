@@ -52,7 +52,7 @@
         "scripts/install-chef.sh",
         "scripts/configure-ssh.sh",
         "scripts/configure-vagrant.sh",
-	      "scripts/configure-ssh-for-root.sh"
+	"scripts/configure-ssh-for-root.sh"
       ]
     }
   ],
