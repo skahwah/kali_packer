@@ -93,6 +93,7 @@ cat <<EOF > $CURRENT.json
       "type": "shell",
       "scripts":
       [
+        "scripts/configure-apt.sh",
         "scripts/vmware-tools.sh",
         "scripts/install-chef.sh",
         "scripts/configure-ssh.sh",
