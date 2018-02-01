@@ -1,6 +1,6 @@
 #!/bin/bash
 # Created by Sanjiv Kawa
-# Twitter: @hackerjiv
+# Twitter: @kawabungah
 # 1/23/18
 # This downloads the current weekly release of Kali full and creates a VM using packer
 
